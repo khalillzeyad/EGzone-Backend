@@ -22,4 +22,7 @@ public partial class User
     public virtual Customer? Customer { get; set; }
 
     public virtual Seller? Seller { get; set; }
+
+    public string Role { get; set; } = "Customer";
+
 }

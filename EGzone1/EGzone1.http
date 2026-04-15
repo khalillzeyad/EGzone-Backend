@@ -4,3 +4,6 @@ GET {{EGzone1_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+
+GET https://localhost:7075/api/subcategories
